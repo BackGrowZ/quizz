@@ -64,7 +64,7 @@ const DOMLoaded = () => {
     
     // on creer les addEventListener au clic sur les button reponse
     reponseDOM.forEach((rep, index) => {
-        rep.addEventListener('click', (index) => onClick(index));
+        rep.addEventListener('click', () => onClick(index));
     });
 }
 
